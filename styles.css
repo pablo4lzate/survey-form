@@ -1,0 +1,107 @@
+body{
+    background: linear-gradient(#67514e 70%, #b8968f);
+    height: 100vh;
+    width: 40em;
+    margin: 0 auto;
+    color:#eae5e4;
+    font-family:verdana;
+    text-align: left;
+  }
+  
+  h1, p{
+    margin:1em auto;
+    text-align:center;
+    max-width:30em;
+  }
+  
+  h1{
+    margin-bottom:2em;
+  }
+  
+  
+  #title{
+    font-size:35px;
+  }
+  
+  #description{
+    font-size:20px;
+  }
+  
+  form{
+    margin: 1em auto;
+    width:30em;
+    }
+  
+  fieldset{
+    border:none;
+    border-top:2px groove #c5afaa;
+    width:100%;
+    padding:2%;
+  }
+  
+  label{
+    display:block;
+    margin:2% 10%;
+    
+  }
+  
+  input, textarea{
+    color:#6d605d;
+    width:100%;
+    margin-top:2%;
+    height:2em;
+    background-color:#faeeec;
+    padding-left:2%;
+  }
+  
+  select{
+    color:#6d605d;
+    background-color:#faeeec;
+    width:100%;
+    height:2em;
+    padding-left:2%;
+    margin:2% 0;
+  }
+  
+  .inline {
+    width: 20;
+    margin: 0 0.5em 0 -35px;
+    vertical-align: middle;
+  }
+  
+  input[type='radio'] {
+      accent-color: #624d4d;
+  }
+  
+  .radio-style{
+    display:flex;
+    gap:20px;
+  }
+  
+  .chilean{
+    margin-left:30px;
+  }
+  
+  legend{
+    padding:10px 0;
+  }
+  
+  .checkboxes{
+    margin-left:5.3em;
+    }
+  
+  textarea{
+    height:6em;
+  }
+  
+  #submit{
+    width:50%;
+    height:3em;
+    font-size:1em;
+    font-weight:700;
+  }
+  
+  .submit{
+    display: flex;
+    justify-content: center;
+  }
